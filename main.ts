@@ -13,7 +13,7 @@ radio.onReceivedString(function (receivedString) {
     }
     if (receivedString == "stopp") {
         kitronik_klip_motor.motorOff(kitronik_klip_motor.Motors.Motor1)
-        kitronik_klip_motor.motorOff(kitronik_klip_motor.Motors.Motor1)
+        kitronik_klip_motor.motorOff(kitronik_klip_motor.Motors.Motor2)
     }
 })
 radio.setGroup(1)
